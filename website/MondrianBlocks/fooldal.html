@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Beléptető Oldal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      position: relative; 
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    img {
+      position: absolute; 
+      top: 150px; 
+      left: 50%; 
+      transform: translateX(-50%); 
+    }
+  </style>
+</head>
+<body>
+  <h1>Üdvözöllek a Mondrian játékba!</h1>
+  <p>Kattints a "Play" gombra a játék indításához!.</p>
+  
+ 
+  <button onclick="megnyitIndex()">Play</button>
+
+  <button onclick="loadMap(1)">könnyű</button>
+  <button onclick="loadMap(2)">közepes</button>
+  <button onclick="loadMap(3)">nehéz</button>
+
+  <script>
+    function loadMap(mapNumber) {
+      
+    }
+  </script>
+
+
+  <img src="Mondrian.png" alt="Mondrian">
+
+  <script>
+    function megnyitIndex() {
+     
+      window.location.href='index.html';
+    }
+  </script>
+</body>
+</html>
